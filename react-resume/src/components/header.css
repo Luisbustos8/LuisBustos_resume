@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
+.th {
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+}
+
+.whoIAm {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 250px;
+  font-size: 35px;
+  font-family: "Finger Paint", cursive;
+}
+
+@media (max-width: 400px) {
+  .whoIAm {
+    display: flex;
+    padding-left: 60px;
+    align-items: flex-start;
+    padding-left: 0px;
+    font-size: 25px;
+    font-family: "Finger Paint", cursive;
+  }
+  .th {
+    width: 100%;
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
+.tellMeMore {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: inherit;
+  width: 100%;
+  margin: 0px;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-family: "Finger Paint", cursive;
+}
+
+.hobbies {
+  display: flex;
+  margin: 0px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  font-size: 35px;
+  font-family: "Finger Paint", cursive;
+}
+.firstHobbies {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.secondHobbies {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.AF {
+  width: 70px;
+  height: 70px;
+}
+.micro {
+  width: 70px;
+  height: 70px;
+}
+.ski {
+  width: 80px;
+  height: 80px;
+}
+.air {
+  padding-left: 20px;
+  width: 80px;
+  height: 80px;
+}
+.description {
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "Finger Paint", cursive;
+
+  text-align: justify;
+  padding-left: 50px;
+  margin: 0px 0px;
+}

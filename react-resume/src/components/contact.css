@@ -1,0 +1,36 @@
+.Contact {
+  height: 60px;
+  padding-top: 5px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.git {
+  padding-right: 30px;
+  width: 70px;
+  height: 70px;
+}
+.phone {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 70px;
+  height: 70px;
+}
+.mail {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 70px;
+  height: 70px;
+}
+.lin {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 60px;
+  height: 60px;
+}
